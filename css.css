@@ -1,0 +1,37 @@
+h1 {
+    color: brown;
+}
+
+.titulo {
+    color: purple;
+}
+
+* {
+    color: blue;
+    text-decoration: underline;
+}
+
+h2 {
+    color: yellowgreen;
+}
+
+.fundo {
+    background-color: darkgrey;
+}
+
+h2.fundo {
+    background-color: yellow;
+}
+
+#titulo {
+    color: pink;
+}
+
+.outro,
+.texto {
+    text-decoration: line-through;
+}
+
+.fundo {
+    padding: 4px;
+}
