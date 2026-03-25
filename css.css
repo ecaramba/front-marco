@@ -35,3 +35,49 @@ h2.fundo {
 .fundo {
     padding: 4px;
 }
+
+.caixa {
+    background-color: beige;
+    border: 1px solid black;
+    padding: 4px;
+    margin: 10px 10px;
+}
+
+form {
+    border: 1px solid red;
+    margin-top: 10px;
+    padding: 8px;
+    color: black;
+    text-decoration: none;
+}
+
+form div {
+    margin: 4px;
+}
+
+input {
+    border: 1px solid green;
+        border-radius: 4px;
+    height: 40px;
+    font-size: xx-large;
+}
+
+button {
+   background-color: blueviolet;
+    color: white;
+    padding: 4px;
+    border: 2px solid black;
+    border-radius: 6px;
+
+}
+
+h2:hover {
+    background-color: darkorchid;
+    cursor: help;
+}
+
+.layout {
+        position: fixed;
+    top: 30px;
+    left: 20px;
+}
