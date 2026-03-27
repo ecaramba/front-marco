@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lógica de Programação</title>
+
+    <script>
+
+        // programação = algoritmo
+
+        // javascript é fracamente tipado
+
+        var nome = "Edir"; // texto -> string
+        var idade = 32; //numero -> number -> int
+        var peso = 54.8; // number -> float
+        var dormindo = false; // boolean
+
+        function oi()
+        {
+            var valor = prompt("Digite seu nome");
+            alert("Oi " + valor );
+        }
+
+        function ver_idade()
+        {
+            var idade = prompt("Digite sua idade");
+
+            if (idade >= 18)
+            {
+                alert("Maior de idade");
+            } else
+            {
+                alert("Menor de idade");
+            }
+
+        }
+
+        // comentario de linha
+        /*
+            multiplas linhas
+
+            if verficações
+
+            > -> maior
+            < -> menor
+            >= -> maior ou igual
+            <= -> menor ou igual
+            == -> igual
+            != -> diferente
+
+            https://github.com/isquicha/exercicios-logica
+
+
+            calculos
+
+            + -> soma
+            - -> sub
+            / -> div
+            * -> mult
+
+            var soma = 2 * (4 - 7);
+        */
+
+    </script>
+
+
+</head>
+<body>
+    
+    <h1>Javascript</h1>
+
+    <p>JS = javascript é diferente de Java</p>
+    <p>Js foi feita no navegador. Mas tmb roda do backend</p>
+
+
+    <button onclick="oi()">Oi</button>
+
+    <button onclick="ver_idade()">Verificar Idade</button>
+
+</body>
+</html>
