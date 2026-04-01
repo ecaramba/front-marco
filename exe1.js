@@ -19,15 +19,15 @@ function exe5()
 
 function exe19()
 {
-    var n1 = prompt("Digite o num1");
-    var n2 = prompt("Digite o num2");
+    var n1 = window.prompt("Digite o num1");
+    var n2 = window.prompt("Digite o num2");
 
     if (n1 >= n2)
     {
-        alert("o numero maior é: " + n1)
+        window.alert("o numero maior é: " + n1)
     } else 
     {
-        alert("O numero maior é: " + n2);
+        window.alert("O numero maior é: " + n2);
     }
 
 }
@@ -55,7 +55,6 @@ function exe21()
     {
         alert("Sexo Invalido")
     }
-
 
 }
 
